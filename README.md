@@ -47,7 +47,7 @@ uvicorn knitportal.main:start
 
 ## Making GET and POST requests
 
-1. Download and install [Postman](https://www.postman.com/downloads/). This app will be used for the sending HTTP requests to the server.
+1. Download and install <a href="https://www.postman.com/downloads/" target="_blank">Postman</a>. This app will be used for the sending HTTP requests to the server.
 2. Open the app
 3. To send POST request, in our case, to scrape [https://www.wollplatz.de](https://www.wollplatz.de). Toggle the type of request to POST, paste this url `http://localhost:8000/scrape` in the url bar and then click on send
 4. To send GET request, i.e., to view the scraped data from [https://www.wollplatz.de](https://www.wollplatz.de). Toggle the type of request to GET, paste this url `http://localhost:8000/products` in the url bar and then click on send. Alternatively, you can go to `http://localhost:8000/products` on browser to view the scraped data.
